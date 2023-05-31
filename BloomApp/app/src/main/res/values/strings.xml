@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">BloomApp</string>
+    <string name="title_activity_activity2_bowling">Activity2_bowling</string>
 </resources>

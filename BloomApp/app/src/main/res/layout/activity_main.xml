@@ -15,6 +15,15 @@
         android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp" />
 
+    <Button
+        android:id="@+id/button_bowling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Bowling"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp" />
+
     <TextView
         android:id="@+id/historiqueTextView"
         android:layout_width="wrap_content"

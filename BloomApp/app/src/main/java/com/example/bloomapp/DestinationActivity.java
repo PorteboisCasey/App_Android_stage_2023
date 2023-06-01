@@ -70,7 +70,5 @@ public class DestinationActivity extends AppCompatActivity {
         gameIdTextView.setText("Game ID: " + gameIdTextView.getId());
         gameScoreTextView.setText("Game Score: " + gameScoreTextView.getId());
 
-
-
     }
 }

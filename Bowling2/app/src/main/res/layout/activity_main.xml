@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/playerNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="Player Name"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/playerIdTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Player ID"
+        android:layout_below="@id/playerNameTextView"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/scoreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:text="0"
+        android:layout_below="@id/playerIdTextView"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/bowlingButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bowling 1"
+        android:layout_below="@id/scoreTextView"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentStart="true"/>
+
+    <Button
+        android:id="@+id/bowlingButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bowling 2"
+        android:layout_below="@id/scoreTextView"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentEnd="true"/>
+
+</RelativeLayout>
